@@ -14,3 +14,13 @@ body{
   background-color: #FFF;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #777;
+}
+
