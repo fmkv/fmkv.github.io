@@ -1,8 +1,20 @@
 <header>
-  <h1><a href="/index.html">Fiona Käch | Architecture</a></h1>
-  <nav>
+  <a href="index.html" class="site-title">Fiona Käch | Architecture</a>
+
+  <button class="hamburger" onclick="toggleMenu()">☰</button>
+  <nav class="page-nav">
     <a href="about.html">about</a>
     <a href="resume.html">re&#769sume&#769</a>
     <a href="projects.html">portfolio</a>
   </nav>
+
+  <script>
+    function toggleDropdown() {
+      document.querySelector("#dropdown").classList.toggle("open");
+    }
+    function toggleMenu() {
+      const header = document.querySelector("header");
+      header.classList.toggle("open");
+    }
+  </script>
 </header>
