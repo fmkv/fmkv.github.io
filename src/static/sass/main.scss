@@ -1,6 +1,13 @@
 @import url("https://nest.garmentsans.com/static/css/main.css");
 
-object {
-    height: 800px;
-    width: 100%;
+.resume {
+  width: 90vh;
+  height: 90vh; // Use viewport height instead of fixed pixels
+  max-height: 900px;
+  overflow: auto;
+
+  @media (max-width: 768px) {
+    height: 80vh; // Slightly smaller on mobile devices
+    width: 80vh;
+  }
 }
