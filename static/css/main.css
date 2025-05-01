@@ -1,5 +1,13 @@
 @import url("https://nest.garmentsans.com/static/css/main.css");
-object {
-  height: 800px;
-  width: 100%;
+.resume {
+  width: 90vh;
+  height: 90vh;
+  max-height: 900px;
+  overflow: auto;
+}
+@media (max-width: 768px) {
+  .resume {
+    height: 80vh;
+    width: 80vh;
+  }
 }
