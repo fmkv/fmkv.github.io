@@ -14,23 +14,25 @@
   transition: transform 0.3s ease;
 }
 
-.project-preview {
-  display: none;
-  margin-top: 40px;
-  text-align: center;
-  animation: fadeInUp 0.4s ease;
-}
+@media (hover: hover) {
+  .project-preview {
+    display: none;
+    margin-top: 40px;
+    text-align: center;
+    animation: fadeInUp 0.4s ease;
+  }
 
-.project-preview.active {
-  display: block;
-}
+  .project-preview.active {
+    display: block;
+  }
 
-.project-preview img {
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease;
+  .project-preview img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
 }
 
 @keyframes fadeInUp {
